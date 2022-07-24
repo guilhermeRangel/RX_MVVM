@@ -13,6 +13,10 @@ class UserTableViewCell: UITableViewCell{
         super.init(style: .value2, reuseIdentifier: "UserTableViewCell")
     }
     
+    
+    
+    
+    
     required init(coder: NSCoder) {
         fatalError("init coder fails")
     }
