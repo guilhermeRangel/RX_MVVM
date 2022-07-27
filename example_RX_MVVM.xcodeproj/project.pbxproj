@@ -16,7 +16,6 @@
 		773C23AB288DDE40007F9C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773C23A9288DDE40007F9C3E /* LaunchScreen.storyboard */; };
 		775E8DAB288DE6CE0023AD34 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E8DAA288DE6CE0023AD34 /* ViewModel.swift */; };
 		775E8DAD288DE7910023AD34 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E8DAC288DE7910023AD34 /* Model.swift */; };
-		775E8DAF288DEB570023AD34 /* ViewModel+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E8DAE288DEB570023AD34 /* ViewModel+UITableViewDelegate.swift */; };
 		775E8DB1288DECDD0023AD34 /* UserTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E8DB0288DECDD0023AD34 /* UserTableviewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		773C23AC288DDE40007F9C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		775E8DAA288DE6CE0023AD34 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		775E8DAC288DE7910023AD34 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		775E8DAE288DEB570023AD34 /* ViewModel+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		775E8DB0288DECDD0023AD34 /* UserTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableviewCell.swift; sourceTree = "<group>"; };
 		9BE10470FC392A806FCDC949 /* Pods-example_RX_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example_RX_MVVM.release.xcconfig"; path = "Target Support Files/Pods-example_RX_MVVM/Pods-example_RX_MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		C6638E8F79D62A2ABB347643 /* Pods-example_RX_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example_RX_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-example_RX_MVVM/Pods-example_RX_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				773C23AC288DDE40007F9C3E /* Info.plist */,
 				775E8DAA288DE6CE0023AD34 /* ViewModel.swift */,
 				775E8DAC288DE7910023AD34 /* Model.swift */,
-				775E8DAE288DEB570023AD34 /* ViewModel+UITableViewDelegate.swift */,
 				775E8DB0288DECDD0023AD34 /* UserTableviewCell.swift */,
 			);
 			path = example_RX_MVVM;
@@ -221,7 +218,6 @@
 				775E8DAD288DE7910023AD34 /* Model.swift in Sources */,
 				773C23A3288DDE3C007F9C3E /* ViewController.swift in Sources */,
 				773C239F288DDE3C007F9C3E /* AppDelegate.swift in Sources */,
-				775E8DAF288DEB570023AD34 /* ViewModel+UITableViewDelegate.swift in Sources */,
 				775E8DAB288DE6CE0023AD34 /* ViewModel.swift in Sources */,
 				773C23A1288DDE3C007F9C3E /* SceneDelegate.swift in Sources */,
 				775E8DB1288DECDD0023AD34 /* UserTableviewCell.swift in Sources */,

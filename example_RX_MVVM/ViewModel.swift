@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 
 class ViewModel {
-    var users = BehaviorSubject(value: [User]())
+     var users = BehaviorSubject(value: [User]())
     
     func fetchUsers(){
         let typyCodeURL = "https://jsonplaceholder.typicode.com/posts"
@@ -20,8 +20,8 @@ class ViewModel {
             guard let data = data else { return }
             do {
                 let responseData = try JSONDecoder().decode([User].self, from: data)
-                print(responseData)
-                self.users.on(.next(responseData))
+//                print(responseData)
+                self.users.onNext(responseData)
             }catch{
                 print(error.localizedDescription)
             }
